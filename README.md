@@ -22,7 +22,7 @@ The user needs to specify the following arguements:
  * `params`: A pytorch model
  * `base_opt`: A pytorch optimizer. In all our experiments we used `torch.optim.SGD`
  * `rho`: The $\rho$ hyper-parameter of Unified SAM
- * `lambd`: The $\lambd$ hyper-parameter of Unified SAM. Currently our code supports any $\lambda\in[0,1]$ as well as the values `lambd = '1/t'` and `lambd = '1-1/t'` which correspond to $\lambda=\frac{1}{t}$ and $\lambda=1-\frac{1}{t}$
+ * `lambd`: The $\lambda$ hyper-parameter of Unified SAM. Currently our code supports any $\lambda\in[0,1]$ as well as the values `lambd = '1/t'` and `lambd = '1-1/t'` which correspond to $\lambda_t=\frac{1}{t}$ and $\lambda_t=1-\frac{1}{t}$
  * `lr`: The learning rate for the base optimizer, i.e. SGD
  * `momentum`: The momentum for the base optimizer, i.e. SGD. In all experiments `momentum=0.9`
  * `weight_decay`: The weight decay for the base optimizer, i.e. SGD. In all experiments `weight_decay=5e-4`
