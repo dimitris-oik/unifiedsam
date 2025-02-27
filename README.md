@@ -1,5 +1,5 @@
 # Unified SAM
-This is the official repository for the code used to run the experiments in the paper that proposed the Unified SAM optimizer. There are two types of experiments: numpy experiments and 
+This is the official repository for the code used to run the experiments in the paper that proposed the Unified SAM optimizer. There are two types of experiments: numpy experiments and pytorch experiments. 
 The pytorch optimizer is adapted from: [https://github.com/weizeming/SAM_AT](https://github.com/weizeming/SAM_AT)
 
 
