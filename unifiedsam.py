@@ -4,7 +4,7 @@ import torch
 from torch import nn
 
 
-class SAM(torch.optim.Optimizer):
+class unifiedSAM(torch.optim.Optimizer):
     def __init__(self, 
                  params: Iterable[nn.parameter.Parameter], 
                  base_optimizer: torch.optim.Optimizer, 
@@ -22,7 +22,7 @@ class SAM(torch.optim.Optimizer):
         lambd = '1-1/t' gives USAM -> NSAM
         """
         defaults = dict(rho=rho, lambd=lambd, **kwargs)
-        super(SAM, self).__init__(params, defaults)
+        super(unifiedSAM, self).__init__(params, defaults)
 
         self.rho = rho
         self.lambd = lambd
