@@ -5,7 +5,7 @@ The pytorch optimizer is adapted from: [https://github.com/weizeming/SAM_AT](htt
 
 **Sharpness-Aware Minimization: General Analysis and Improved Rates**\
 *D. Oikonomou, N. Loizou*\
-Paper: [https://arxiv.org/abs/2406.04142](https://openreview.net/forum?id=8rvqpiTTFv)
+Paper: [https://openreview.net/forum?id=8rvqpiTTFv](https://openreview.net/forum?id=8rvqpiTTFv)
 
 
 
