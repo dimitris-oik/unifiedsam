@@ -162,8 +162,6 @@ Test accuracy of `unifiedSAM` with WRN-28-10 on **CIFAR-10**, varying the sharpn
 
 Across radii, plain USAM is never the winner and **$\lambda_t = 1-1/t$ is a consistently strong default**. Full CIFAR-100 results and the PRN-18 ablations are in the paper.
 
-The full paper is checked into this repository as [`paper.md`](paper.md).
-
 ---
 
 ## Citation
